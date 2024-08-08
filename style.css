@@ -1,0 +1,368 @@
+@import url(./media\ query.css);
+
+/* .topnav {
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    font-family: "poppins";
+}
+
+
+.co {
+    font-size: larger;
+}
+
+.free {
+    color: #FF7D29;
+    text-shadow: 1px 1px black;
+}
+
+.one p {
+    font-size: 20px;
+}
+
+.topnav:hover {
+    color: black;
+}
+
+.get-tickets {
+    color: rgb(255, 255, 255);
+    background-color: #FF7D29;
+    padding: 5px;
+    font-size: 15px;
+    width: 10%;
+    margin-left: 20%;
+    border-radius: 30px;
+} */
+
+/* ---------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.herosection {
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    /* background-color: rgb(0, 0, 0); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    z-index: 9999;
+    display: flex;
+    flex-shrink: 0;
+    width: 209px;
+    height: 29px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.logobox2,
+.logobox3 {
+    display: flex-end;
+    height: 50px;
+}
+
+.lo2 {
+    align-items: center;
+    justify-content: center;
+}
+
+.lo {
+    font-size: 17px;
+    padding-top: -30px;
+}
+
+.deliver {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    padding: 10px;
+    font-size: 13px;
+    padding-top: 10px;
+    margin-left: 15px;
+    color: #ffffff;
+
+}
+
+.d1 {
+    top: -10px;
+    position: relative;
+    padding-top: -5px;
+    font-size: 11px;
+}
+
+.d1-img {
+    margin-top: 30px;
+    position: absolute;
+    font-size: 14px;
+
+}
+
+.deliver span {
+    padding: 5px;
+}
+
+button {
+    color: #ffffff;
+    background-color: #FF6600;
+    border: #FF7D29;
+    padding: 5px;
+    font-size: 13px;
+    width: 120px;
+    height: 35px;
+    font-weight: 600;
+    border-radius: 30px;
+
+}
+
+.fa {
+    font-size: 17px;
+}
+
+button:hover {
+    background-color: #D04A0A;
+
+}
+
+/* ------------------------------------ */
+.four {
+    width: 100%;
+    height: 610px;
+    background-image: url(https://s.alicdn.com/@img/imgextra/i4/O1CN01ustqhi1Tz44lu4arh_!!6000000002452-0-tps-3840-1248.jpg_q60.jpg);
+    background-position: center center;
+    object-fit: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    /* overflow-x: hidden; */
+
+}
+
+.playpara,
+.leadingpara,
+.leadingpara2 {
+    width: 37%;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    justify-items: center;
+    margin-top: 5%;
+    padding-left: 2%;
+}
+
+.leadingpara,
+.leadingpara2 {
+    margin: 0;
+    padding-top: -30px;
+    width: 75%;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.leadingpara2 {
+    width: 100%;
+    font-size: 15px;
+    display: inline-flex;
+    margin-top: 30px;
+    font-weight: normal;
+}
+
+.div {
+    position: relative;
+}
+
+.input {
+    height: 63px;
+    margin-left: 30px;
+    border-radius: 40px;
+    width: 52%;
+    margin-top: 10px;
+}
+
+.fas {
+    color: white;
+}
+
+.camera {
+    position: absolute;
+    margin-left: -170px;
+    margin-top: 32px;
+    width: 20px;
+}
+
+.fre {
+    margin-left: 10px;
+}
+
+
+.btn,
+.btn2 {
+    color: #ffffff;
+    background-color: #0000003f;
+    font-size: 13px;
+    width: 120px;
+    margin: 10px;
+    display: inline-flex;
+    height: 35px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-color: white;
+}
+
+.btn:hover {
+    background-color: #0000008a;
+    color: #ffffff;
+    border-color: white;
+
+}
+
+span {
+    padding: 10px;
+}
+
+.btn3 {
+    margin-top: 16px;
+    margin-left: -145px;
+    position: absolute;
+    height: 51px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #FF6A00;
+    color: #ffffff;
+    border-color: white;
+}
+
+/* ------------brown section----------- */
+
+.secondherosection {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    color: #ffffff;
+    position: relative;
+    padding: 30px 0;
+    background-color: #3A190B;
+}
+
+.hero2 {
+    width: 380px;
+    height: 350px;
+    padding: 40px 20px;
+    border-radius: 15px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #402013ad;
+}
+
+.hero2:hover {
+    background-color: #52220A;
+}
+
+.h5 {
+    font-weight: 600;
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.para {
+    font-size: 17px;
+}
+
+.hero2 span img {
+    margin-top: -10px;
+    width: 60px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.166);
+
+}
+
+.icon:hover {
+    color: #FB6407;
+    background-color: transparent;
+
+}
+
+.hero2:hover {
+    background-color: #52220A;
+
+}
+
+.herosection3 {
+    width: 100%;
+    height: 300px;
+    margin: 5% auto;
+    display: flex;
+}
+
+.p {
+    padding: 40px 100px 0px 0px;
+    font-size: 45px;
+    font-weight: 500;
+    width: 1400px;
+    height: 300px;
+    line-height: 60px;
+    margin: 0 0px 0px 30px;
+}
+
+.box {
+    display: flex;
+    width: 40%;
+    height: 300px;
+    margin: 0px 20px;
+    padding: 30px 0px;
+
+}
+
+.div {
+    height: 130px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.smallbox {
+    width: 250px;
+    height: 90px;
+    margin: 0 0px;
+    display: flex;
+    position: relative;
+
+}
+
+.phead {
+    padding: 0px 10px;
+    height: 60px;
+    font-size: 37px;
+    color: #FF6600;
+    margin-left: 20px;
+    border-left: 5px solid #DDDDDD;
+}
+
+.smallbox .pp {
+    width: 100%;
+    padding: 45px 10px;
+    margin-left: 10% !important;
+    position: absolute;
+    height: 15px;
+    font-size: 19px;
+    color: #51200B;
+}
